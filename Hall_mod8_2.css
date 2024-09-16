@@ -1,0 +1,111 @@
+/* Header styling */
+header {
+    background-color: #ff69b4;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+/* Navbar styling */
+#navbar {
+    overflow: hidden;
+    background-color: #d3a2b0;
+    border-bottom: 15px solid #ff69b4;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: #ffb6c1;
+    color: #ddd;
+}
+
+/* Card style */
+#container {
+    margin: 2% 5% 100px 5%;
+}
+
+.card {
+    border: 1px solid #ff69b4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+    margin: 20px auto;
+    background-color: #fff;
+}
+
+.card-title {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #ff69b4;
+    text-align: center;
+}
+
+.card-content {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Movies table style */
+#movies {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#movies th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #ff69b4;
+    color: white;
+}
+
+#movies td, #movies th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#movies td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/* Footer style */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #ff69b4; /* footer background pink */
+    color: white; /* White text */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .back-link {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+
+#container {
+    margin: 2% 5% 100px 5%;
+}
